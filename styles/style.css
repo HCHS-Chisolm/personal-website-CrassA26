@@ -1,7 +1,22 @@
 table, th, tr, td {
   border: 1px solid;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1, h2, p {
   text-align: center;
+}
+
+.normal {
+  background-color: white;
+}
+
+.other {
+  background-color: lightgreen;
+}
+
+body {
+  background-color: rgb(255, 225, 235);
 }
